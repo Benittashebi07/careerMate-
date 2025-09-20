@@ -1,0 +1,52 @@
+body {
+    background-color: #c6d0d9;
+    color: #e8eaed;
+}
+
+.stApp {
+    background-color: #e9e1e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e8eaed;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 25px;
+    border: 1px solid #ac7aa8;
+    background-color: #7f5ba0;
+    color: #e8eaed;
+    padding: 12px 18px;
+    box-shadow: none;
+}
+
+.stButton > button {
+    border-radius: 25px;
+    background-color: #303134;
+    border: none;
+    color: #e8eaed;
+    padding: 10px 20px;
+}
+
+.chat-bubble {
+    padding: 12px 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.user-bubble {
+    background-color: #343541; /* Dark gray for user */
+    color: #e8eaed;
+    margin-left: auto;
+    border-bottom-right-radius: 5px;
+}
+
+.bot-bubble {
+    background-color: #444654; /* Lighter gray for bot */
+    color: #e8eaed;
+    border-bottom-left-radius: 5px;
+}
